@@ -1,0 +1,19 @@
+{
+    "name": "jquery.json-view",
+    "version": "1.0.0",
+    "homepage": "http://github.com/bazh/jquery.json-view",
+    "description": "Collapsible JSON Viewer",
+    "main": "dist/jquery.json-view.js",
+    "authors": [
+        "bazh <interesno@gmail.com>"
+    ],
+    "keywords": [
+        "jquery",
+        "plugin",
+        "json",
+        "view",
+        "json-view",
+        "json-viewer"
+    ],
+    "license": "MIT"    
+}

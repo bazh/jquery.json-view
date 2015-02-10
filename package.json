@@ -1,0 +1,19 @@
+{
+  "name": "jquery.json-view",
+  "version": "1.0.0",
+  "homepage": "http://github.com/bazh/jquery.json-view",
+  "description": "jQuery collapsible JSON plugin",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.2",
+    "gulp-csslint": "^0.1.5",
+    "gulp-header": "^1.2.2",
+    "gulp-jshint": "^1.9.0",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-uglify": "^1.0.1",
+    "jshint-stylish": "^1.0.0",
+    "uglify-save-license": "^0.4.1"
+  }
+}

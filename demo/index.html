@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery JSON View demo</title>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="../dist/jquery.json-view.js"></script>
+        <link href="../dist/jquery.json-view.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="element"></div>
+        <script>
+            $(function() {
+                $('#element').jsonView(JSON.stringify({
+                    demo: 'string',
+                    notSet: null,
+                    zero: 0,
+                    'true': true,
+                    'false': false,
+                    undef: undefined,
+                    number: 5,
+                    arr: [1, 2, 3, 'string', null, { a: 1 }, [2, 3, 4]],
+                    obj: {
+                        string: 'test string',
+                        arr: [1, 2, 3, 4, 'myString', ['wow', [9,8,7,6]]],
+                        obj1: {
+                            hello: 'world',
+                            nice: {
+                                to: 'meet you',
+                                'finally': [1, 2, 3, 4, 5]
+                            }
+                        }
+                    }
+                }));
+            });
+        </script>
+    </body>
+</html>
