@@ -9,4 +9,4 @@
 ```
 
 ### Live example:
-[View]()
+[View](http://jsfiddle.net/87f2w32p/)
