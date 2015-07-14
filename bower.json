@@ -3,7 +3,10 @@
     "version": "1.0.0",
     "homepage": "http://github.com/bazh/jquery.json-view",
     "description": "Collapsible JSON Viewer",
-    "main": "dist/jquery.json-view.js",
+    "main": [
+        "dist/jquery.json-view.js",
+        "dist/jquery.json-view.css"
+    ],
     "authors": [
         "bazh <interesno@gmail.com>"
     ],
@@ -15,5 +18,5 @@
         "json-view",
         "json-viewer"
     ],
-    "license": "MIT"    
+    "license": "MIT"
 }
